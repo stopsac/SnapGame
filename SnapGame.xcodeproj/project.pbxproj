@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F388D4DA1C986D62001A62DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388D4D91C986D62001A62DD /* AppDelegate.swift */; };
+		F388D4DC1C986D62001A62DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388D4DB1C986D62001A62DD /* ViewController.swift */; };
+		F388D4DF1C986D62001A62DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F388D4DD1C986D62001A62DD /* Main.storyboard */; };
+		F388D4E11C986D62001A62DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F388D4E01C986D62001A62DD /* Assets.xcassets */; };
+		F388D4E41C986D62001A62DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F388D4E21C986D62001A62DD /* LaunchScreen.storyboard */; };
+		F388D4F11C986FA8001A62DD /* Car1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F388D4EB1C986FA8001A62DD /* Car1.jpg */; };
+		F388D4F21C986FA8001A62DD /* Car2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F388D4EC1C986FA8001A62DD /* Car2.jpg */; };
+		F388D4F31C986FA8001A62DD /* Car3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F388D4ED1C986FA8001A62DD /* Car3.jpg */; };
+		F388D4F41C986FA8001A62DD /* Car4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F388D4EE1C986FA8001A62DD /* Car4.jpg */; };
+		F388D4F51C986FA8001A62DD /* Car5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F388D4EF1C986FA8001A62DD /* Car5.jpg */; };
+		F388D4F61C986FA8001A62DD /* Car6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F388D4F01C986FA8001A62DD /* Car6.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F388D4D61C986D62001A62DD /* SnapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F388D4D91C986D62001A62DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F388D4DB1C986D62001A62DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F388D4DE1C986D62001A62DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F388D4E01C986D62001A62DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F388D4E31C986D62001A62DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F388D4E51C986D62001A62DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F388D4EB1C986FA8001A62DD /* Car1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car1.jpg; sourceTree = "<group>"; };
+		F388D4EC1C986FA8001A62DD /* Car2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car2.jpg; sourceTree = "<group>"; };
+		F388D4ED1C986FA8001A62DD /* Car3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car3.jpg; sourceTree = "<group>"; };
+		F388D4EE1C986FA8001A62DD /* Car4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car4.jpg; sourceTree = "<group>"; };
+		F388D4EF1C986FA8001A62DD /* Car5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car5.jpg; sourceTree = "<group>"; };
+		F388D4F01C986FA8001A62DD /* Car6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car6.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F388D4D31C986D62001A62DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F388D4CD1C986D62001A62DD = {
+			isa = PBXGroup;
+			children = (
+				F388D4D81C986D62001A62DD /* SnapGame */,
+				F388D4D71C986D62001A62DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F388D4D71C986D62001A62DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F388D4D61C986D62001A62DD /* SnapGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F388D4D81C986D62001A62DD /* SnapGame */ = {
+			isa = PBXGroup;
+			children = (
+				F388D4D91C986D62001A62DD /* AppDelegate.swift */,
+				F388D4DB1C986D62001A62DD /* ViewController.swift */,
+				F388D4DD1C986D62001A62DD /* Main.storyboard */,
+				F388D4E01C986D62001A62DD /* Assets.xcassets */,
+				F388D4E21C986D62001A62DD /* LaunchScreen.storyboard */,
+				F388D4E51C986D62001A62DD /* Info.plist */,
+				F388D4EB1C986FA8001A62DD /* Car1.jpg */,
+				F388D4EC1C986FA8001A62DD /* Car2.jpg */,
+				F388D4ED1C986FA8001A62DD /* Car3.jpg */,
+				F388D4EE1C986FA8001A62DD /* Car4.jpg */,
+				F388D4EF1C986FA8001A62DD /* Car5.jpg */,
+				F388D4F01C986FA8001A62DD /* Car6.jpg */,
+			);
+			path = SnapGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F388D4D51C986D62001A62DD /* SnapGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F388D4E81C986D62001A62DD /* Build configuration list for PBXNativeTarget "SnapGame" */;
+			buildPhases = (
+				F388D4D21C986D62001A62DD /* Sources */,
+				F388D4D31C986D62001A62DD /* Frameworks */,
+				F388D4D41C986D62001A62DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapGame;
+			productName = SnapGame;
+			productReference = F388D4D61C986D62001A62DD /* SnapGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F388D4CE1C986D62001A62DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Engene;
+				TargetAttributes = {
+					F388D4D51C986D62001A62DD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8XAJ796C7E;
+					};
+				};
+			};
+			buildConfigurationList = F388D4D11C986D62001A62DD /* Build configuration list for PBXProject "SnapGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F388D4CD1C986D62001A62DD;
+			productRefGroup = F388D4D71C986D62001A62DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F388D4D51C986D62001A62DD /* SnapGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F388D4D41C986D62001A62DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F388D4F41C986FA8001A62DD /* Car4.jpg in Resources */,
+				F388D4E41C986D62001A62DD /* LaunchScreen.storyboard in Resources */,
+				F388D4F61C986FA8001A62DD /* Car6.jpg in Resources */,
+				F388D4F51C986FA8001A62DD /* Car5.jpg in Resources */,
+				F388D4E11C986D62001A62DD /* Assets.xcassets in Resources */,
+				F388D4F31C986FA8001A62DD /* Car3.jpg in Resources */,
+				F388D4F21C986FA8001A62DD /* Car2.jpg in Resources */,
+				F388D4F11C986FA8001A62DD /* Car1.jpg in Resources */,
+				F388D4DF1C986D62001A62DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F388D4D21C986D62001A62DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F388D4DC1C986D62001A62DD /* ViewController.swift in Sources */,
+				F388D4DA1C986D62001A62DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F388D4DD1C986D62001A62DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F388D4DE1C986D62001A62DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F388D4E21C986D62001A62DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F388D4E31C986D62001A62DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F388D4E61C986D62001A62DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F388D4E71C986D62001A62DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F388D4E91C986D62001A62DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.Engene.SnapGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F388D4EA1C986D62001A62DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.Engene.SnapGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F388D4D11C986D62001A62DD /* Build configuration list for PBXProject "SnapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F388D4E61C986D62001A62DD /* Debug */,
+				F388D4E71C986D62001A62DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F388D4E81C986D62001A62DD /* Build configuration list for PBXNativeTarget "SnapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F388D4E91C986D62001A62DD /* Debug */,
+				F388D4EA1C986D62001A62DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F388D4CE1C986D62001A62DD /* Project object */;
+}
